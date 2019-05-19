@@ -39,7 +39,7 @@ class Song
 
   def table_name_for_insert
     self.class.table_name
-  end
+  end 
 
   def values_for_insert
     values = []
@@ -59,6 +59,3 @@ class Song
   end
 
 end
-
-
-
